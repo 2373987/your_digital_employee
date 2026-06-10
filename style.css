@@ -1,1 +1,114 @@
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background-color:#0f172a;
+    color:white;
+}
 
+.hero{
+    text-align:center;
+    padding:100px 20px;
+}
+
+h1{
+    font-size:60px;
+
+    background:linear-gradient(
+        90deg,
+        #ffffff,
+        #7c3aed
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+}
+
+h2{
+    font-size:40px;
+}
+
+p{
+    font-size:20px;
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+.services{
+    padding:100px 20px;
+    text-align:center;
+}
+
+.card{
+    border:1px solid lightgray;
+    padding:20px;
+    margin:20px auto;
+    width:400px;
+    border-radius:12px;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 50px;
+}
+
+ul{
+    display:flex;
+    gap:30px;
+    list-style:none;
+}
+
+li{
+    color:white;
+}
+
+.logo{
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+}
+button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:15px 30px;
+    border-radius:10px;
+    font-size:18px;
+    cursor:pointer;
+    
+}
+.button-container{
+    text-align:center;
+    margin-top:40px;
+}
+
+.employee-chat{
+    position:fixed;
+    bottom:20px;
+    right:20px;
+    background:white;
+    color:black;
+    padding:15px 20px;
+    border-radius:15px;
+    box-shadow:0 4px 20px rgba(0,0,0,0.3);
+    z-index:1000;
+}
+.employee-chat:hover{
+    transform:translateY(-3px);
+    transition:0.3s;
+}
