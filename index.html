@@ -64,32 +64,52 @@
              <span>📈 More Conversions</span>
 
         </div>
-        <div class="employee-chat">
-            👩 Hi! I'm Sakshi's AI assistant.
-                <br>Ask me about our services.
-        </div>
+        <div class="employee-chat" onclick="toggleChat()">
+    👩 Chat with Sakshi AI
+</div>
+
+<div class="chat-window" id="chatWindow">
+
+    <h3>Sakshi AI</h3>
+
+    <div class="chat-messages" id="chatMessages">
+        <p>👩 Hi! How can I help you today?</p>
+    </div>
+
+    <input
+        type="text"
+        id="userInput"
+        placeholder="Ask something..."
+    >
+
+    <button onclick="sendMessage()">
+        Send
+    </button>
+
+</div>
 
     </section>
     <section class="services">
 
     <h2>What We Build</h2>
+    <div class="services-grid">
 
-    <div class="card">
-        <h3>Website Development</h3>
-        <p>Modern websites built for growth.</p>
+        <div class="card">
+            <h3>Website Development</h3>
+            <p>Modern websites built for growth.</p>
+        </div>
+
+        <div class="card">
+            <h3>AI Digital Employees</h3>
+            <p>Answer questions and book appointments 24/7.</p>
+        </div>
+
+        <div class="card">
+            <h3>Automation</h3>
+            <p>Save time by automating repetitive tasks.</p>
+        </div>
     </div>
-
-    <div class="card">
-        <h3>AI Digital Employees</h3>
-        <p>Answer questions and book appointments 24/7.</p>
-    </div>
-
-    <div class="card">
-        <h3>Automation</h3>
-        <p>Save time by automating repetitive tasks.</p>
-    </div>
-
     </section>
-
+<script src="script.js"></script>
 </body>
 </html>
