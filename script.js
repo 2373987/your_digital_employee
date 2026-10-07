@@ -21,7 +21,7 @@ function toggleChat(){
         input.value.toLowerCase();
 
     messages.innerHTML +=
-        `<p>🧑 ${input.value}</p>`;
+        `<p>👤  ${input.value}</p>`;
 
     let reply =
         "I can help with websites, AI employees and automation.";
@@ -42,7 +42,7 @@ function toggleChat(){
     }
 
     messages.innerHTML +=
-        `<p>👩 ${reply}</p>`;
+        `<p>👩‍💻 ${reply}</p>`;
 
     input.value = "";
 
